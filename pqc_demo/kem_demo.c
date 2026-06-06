@@ -19,7 +19,7 @@ int main() {
 
     kem = OQS_KEM_new(OQS_KEM_alg_ml_kem_768);
 	if (kem == NULL) {
-		printf("Cannot initialize ML-KEM-768\n");
+		printf("ERROR: Cannot initialize ML-KEM-768\n");
 		return OQS_ERROR;
 	}
 
